@@ -1,0 +1,32 @@
+body {
+  background-color: #555555;
+  background-image: url("../img/background.png");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: azure;
+}
+
+.parent {
+  height: 99%;
+  width: 99%;
+  background-color: #000000E0;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-items: center;
+}
+
+.text {
+  margin-top: 30px;
+  font-size: 20px;
+}
